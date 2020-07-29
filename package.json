@@ -29,6 +29,7 @@
     "node": ">=10"
   },
   "scripts": {
+    "start": "gatsby develop",
     "clean": "gatsby clean",
     "reset": "rm -rf .cache/ public/ node_modules/ package-lock.json",
     "prep": "rm -rf .cache/ public/ node_modules/ && npm ci",
